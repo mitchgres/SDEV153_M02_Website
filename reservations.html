@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacific Trails Resort :: Reservations</title>
+    <link rel="stylesheet" href="pacific.css">
+</head>
+
+<body>
+
+    <!-- Webpage Title -->
+    <header>
+        <h1><a href="index.html">Pacific Trails Resort</a></h1>
+    </header>
+
+    <!-- Navigation Bar-->
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">
+                Home
+                </a>
+            </li>
+
+            <li>
+                <a href="yurts.html">
+                    Yurts
+                </a>
+            </li>
+
+            <li>
+                <a href="activities.html">
+                    Activities
+                </a>
+            </li>
+
+            <li>
+                <a href="reservations.html">
+                    Reservations
+                </a>
+            </li>
+
+        </ul>
+    </nav>
+
+    <div id="wrapper">
+
+        <div id="reshero">
+
+        </div>
+
+        <main>
+
+            <!-- Hotel Slogan -->
+            <h2>
+                Reservations at Pacific Trails
+            </h2>
+
+            <h3>
+                Contact Us
+            </h3>
+
+            <!-- Summary of Hotel -->
+            <p>
+                Required fields are marked with an asterisk*.
+            </p>
+
+            <!-- Contact Form -->
+            <form method="post" action="https://webdevbasics.net/scripts/pacific.php">
+                <label for="first_name">*First Name:</label>
+                <input type="text" name="myFName"  id="myFName" required>
+
+                <label for="last_name">*Last Name:</label>
+                <input type="text"name="myLName"  id="myLName" required>
+
+                <label for="email">*Email:</label>
+                <input type="email" name="myEmail" id="myEmail" required>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" name="myPhone" id="myPhone">
+
+                <label for="arr_date">Arrival Date:</label>
+                <input type="date" name="myDate" id="myDate">
+
+                <label for="nights">Nights:</label>
+                <input type="number" name="myNights" id="myNights" min="1" max="14">
+
+                <label for="comments">Comments:</label>
+                <textarea id="myComment" name="myComment" rows="2" cols="20"></textarea>
+
+                <input type="submit" title="Submit" name="mySubmit" id="mySubmit" class="submit-button">
+
+            </form>
+
+        </main>
+
+        <footer>
+            <p>Copyright © 2020 Pacific Trails Resort <br>
+                <a href="mailto:mgresham4@ivytech.edu">Contact Mitchell Gresham</a>
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
