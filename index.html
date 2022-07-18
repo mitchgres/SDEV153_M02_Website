@@ -59,6 +59,14 @@
                 Enjoy Nature In Luxury
             </h2>
 
+            <!-- Video -->
+            <video width="320" height="240" controls>
+                <source src="pacific.mp4" type="video/mp4">
+                <source src="pacific.ogv" type="video/ogv">
+                <source src="pacific.jpg" type="video/jpg">
+                Your Browser Doesn't Support This Multimedia Content.
+            </video>
+
             <!-- Summary of Hotel -->
             <p>
                 <span class="resort">Pacific Trails Resort</span> on the California North Coast offers panoramic views of the Pacific Ocean. Our guests experience an opulent camping adventure in sumptuously appointed private yurts featuring a gas fireplace,
@@ -101,6 +109,15 @@
             <p>Copyright © 2020 Pacific Trails Resort <br>
                 <a href="mailto:mgresham4@ivytech.edu">Contact Mitchell Gresham</a>
             </p>
+
+            <div>
+                <p id="last_modified">...</p>
+
+                <script>
+                    document.getElementById("last_modified").innerHTML = "Last Date Modified:".concat(' ', document.lastModified);
+                </script>
+            </div>
+
         </footer>
     </div>
 </body>

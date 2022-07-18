@@ -152,7 +152,9 @@ form {
     padding-left: 1em;
     width: 80%;
 }
-input, textarea{
+
+input,
+textarea {
     margin-bottom: 0.5em;
 }
 
@@ -161,6 +163,11 @@ input, textarea{
     background-image: url(ocean.jpg);
     background-size: 200%, 100%;
     background-repeat: no-repeat;
+}
+
+video {
+    float: right;
+    margin: 2em;
 }
 
 @media screen and (min-width:600px) {
@@ -214,7 +221,6 @@ input, textarea{
     #trailhero {
         background-size: 100% 100%;
     }
-
 }
 
 @media screen and (min-width:1024px) {
@@ -239,7 +245,8 @@ table {
     border-collapse: collapse;
 }
 
-td, th {
+td,
+th {
     padding: 5px;
     border: 1px solid #3399CC;
 }
@@ -252,7 +259,6 @@ td {
     text-align: left;
 }
 
-tr:nth-of-type(even){
+tr:nth-of-type(even) {
     background-color: #DFEDF8;
 }
-
